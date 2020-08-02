@@ -1,0 +1,25 @@
+# DO NOT DELETE THIS LINE -- depgen.pl uses it.
+# DO NOT PUT ANYTHING AFTER THIS LINE, IT WILL GO AWAY.
+
+pt_order_book.o: \
+  /home/ubuntu/liquibook/src/book/bbo_listener.h \
+  /home/ubuntu/liquibook/src/book/callback.h \
+  /home/ubuntu/liquibook/src/book/comparable_price.h \
+  /home/ubuntu/liquibook/src/book/depth.h \
+  /home/ubuntu/liquibook/src/book/depth_constants.h \
+  /home/ubuntu/liquibook/src/book/depth_level.h \
+  /home/ubuntu/liquibook/src/book/depth_listener.h \
+  /home/ubuntu/liquibook/src/book/depth_order_book.h \
+  /home/ubuntu/liquibook/src/book/logger.h \
+  /home/ubuntu/liquibook/src/book/order.h \
+  /home/ubuntu/liquibook/src/book/order_book.h \
+  /home/ubuntu/liquibook/src/book/order_book_listener.h \
+  /home/ubuntu/liquibook/src/book/order_listener.h \
+  /home/ubuntu/liquibook/src/book/order_tracker.h \
+  /home/ubuntu/liquibook/src/book/trade_listener.h \
+  /home/ubuntu/liquibook/src/book/types.h \
+  /home/ubuntu/liquibook/src/book/version.h \
+  /home/ubuntu/liquibook/src/simple/simple_order.h \
+  /home/ubuntu/liquibook/src/simple/simple_order_book.h
+
+# IF YOU PUT ANYTHING HERE IT WILL GO AWAY

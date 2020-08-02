@@ -1,0 +1,9 @@
+# DO NOT DELETE THIS LINE -- depgen.pl uses it.
+# DO NOT PUT ANYTHING AFTER THIS LINE, IT WILL GO AWAY.
+
+simple_order.o: \
+  ./simple_order.h \
+  /home/ubuntu/liquibook/src/book/order.h \
+  /home/ubuntu/liquibook/src/book/types.h
+
+# IF YOU PUT ANYTHING HERE IT WILL GO AWAY
