@@ -13,7 +13,7 @@
 #include <Common/AtomicCounter.h>
 
 // In gcc including asio.hpp in precompiled headers causes problems
-#include <boost/asio.hpp>
+#include <boost/asio/io_service.hpp>
 
 namespace QuickFAST
 {

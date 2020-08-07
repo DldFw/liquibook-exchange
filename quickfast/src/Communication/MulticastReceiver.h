@@ -11,7 +11,7 @@
 //#include <Common/QuickFAST_Export.h>
 #include "MulticastReceiver_fwd.h"
 #include <Communication/AsynchReceiver.h>
-
+#include <boost/asio.hpp>
 namespace QuickFAST
 {
   namespace Communication

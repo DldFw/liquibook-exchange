@@ -22,7 +22,7 @@
 #include <Communication/AsynchFileReceiver.h>
 #include <Communication/BufferReceiver.h>
 #include <Communication/AsioService.h>
-
+#include <boost/asio.hpp>
 using namespace QuickFAST;
 using namespace Application;
 
