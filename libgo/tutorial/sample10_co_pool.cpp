@@ -48,7 +48,7 @@ int main(int argc, char** argv)
 
     // 可以自定义协程池中的最大协程数,
     // 建议设置的多一些, 不被执行的协程不会占用cpu资源.
-    pPool->InitCoroutinePool(1024);
+    pPool->InitCoroutinePool(1024*1024*1024);
 
     // 启动协程池
     // 第一个参数: 最小调度线程数

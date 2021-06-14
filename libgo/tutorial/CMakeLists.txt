@@ -35,7 +35,7 @@ if (${SMALL_TEST} STREQUAL "ON")
     add_definitions(-DSMALL_TEST)
 endif()
 
-include(${PROJECT_SOURCE_DIR}/boost.cmake)
+#include(${PROJECT_SOURCE_DIR}/boost.cmake)
 
 #find_package(CURL REQUIRED)
 #target_link_libraries(main PRIVATE ${CURL_LIBRARIES})

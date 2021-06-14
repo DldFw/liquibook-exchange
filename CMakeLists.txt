@@ -5,8 +5,10 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}")
-
+include_directories(quickfast/src)
 add_subdirectory(libgo)
 add_subdirectory(liquibook)
-add_subdirectory(quickfast)
+#add_subdirectory(quickfast)
+add_subdirectory(rpcserver)
+
 
